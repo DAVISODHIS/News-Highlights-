@@ -1,7 +1,7 @@
 # News-Highlights
 ## Maxwell Haron
 #### News-Highlights is a Flask based application which displays the latest news in various categories such as business and sports.
-#### The live link to News-highlights is :
+#### The live link to News-highlights is :https://n3ws-app.herokuapp.com/
  19th June 2018 10.47pm
 #### By **Maxwell Haron**
 ## Installation Requirements
