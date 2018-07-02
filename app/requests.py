@@ -71,28 +71,28 @@ def get_sources(endpoint, category):
     return articles_results
 
 
-def process_sources(sources_list):
-    """
-    Function that processes api results and transforms them to a list of Objects
-
-    Args:
-        sources_list: A list of dictionaries that contain article details
-
-    Returns:
-        results: A list of headlines objects
-    """
-    source_results = []
-    for source in sources_list:
-        id = source.get('id')
-        name = source.get('name')
-        description = source.get('description')
-        url = source.get('url')
-        category = source.get('category')
-        country = source.get('country')
-
-        source_object = Source(id, name, description, url, category, country)
-        source_results.append(source_object)
-
-    return source_results
-
-
+# def process_sources(sources_list):
+#     """
+#     Function that processes api results and transforms them to a list of Objects
+#
+#     Args:
+#         sources_list: A list of dictionaries that contain article details
+#
+#     Returns:
+#         results: A list of headlines objects
+#     """
+#     source_results = []
+#     for source in sources_list:
+#         id = source.get('id')
+#         name = source.get('name')
+#         description = source.get('description')
+#         url = source.get('url')
+#         category = source.get('category')
+#         country = source.get('country')
+#
+#         source_object = Source(id, name, description, url, category, country)
+#         source_results.append(source_object)
+#
+#     return source_results
+#
+#
